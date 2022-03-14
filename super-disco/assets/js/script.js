@@ -9,7 +9,7 @@ $(document).ready(function () {
         PM_12 = 13; AM_12 = 1;
     }
     const currentDay = $("#currentDay");
-    
+
     currentDay.text(now);
 
     // Stores the user input into local storage.
