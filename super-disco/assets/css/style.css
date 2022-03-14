@@ -30,6 +30,42 @@ body {
     border-radius: 15px;
   }
   
+  #TopBox {
+    border-top: 2px solid #06AED5;
+    border-bottom: 1px solid #06AED5;
+    border-left: 2px solid #06AED5;
+    border-right: 2px solid #06AED5;
+    border-radius: 6px;
+    background-color: lightblue;
+  }
+  
+  #TopBox div {
+    margin: 5px 0px;
+  }
+  
+  #TopBox :hover {
+    border: 2px solid #06AED5;
+    border-radius: 6px;
+  }
+  
+  #Box {
+    border-top: 1px solid #06AED5;
+    border-bottom: 1px solid #06AED5;
+    border-left: 2px solid #06AED5;
+    border-right: 2px solid #06AED5;
+    border-radius: 6px;
+    background-color: lightblue;
+  }
+  
+  #Box :hover {
+    border: 2px solid #06AED5;
+    border-radius: 6px;
+  }
+  
+  #Box div {
+    margin: 5px 0px;
+  }
+  
   .row {
     white-space: pre-wrap;
     height: 80px;
